@@ -53,9 +53,12 @@ CREATE TABLE curso_escolar (
                                anyo_fin integer NOT NULL
 );
 
+
+
 CREATE TABLE alumno_se_matricula_asignatura (
                                                 id_alumno INT REFERENCES persona(id),
                                                 id_asignatura INT REFERENCES asignatura(id),
                                                 id_curso_escolar INT REFERENCES curso_escolar(id),
                                                 PRIMARY KEY (id_alumno, id_asignatura, id_curso_escolar)
 );
+

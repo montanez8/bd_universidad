@@ -35,7 +35,7 @@ INSERT INTO persona VALUES (20, '79221403L', 'Francesca', 'Schowalter', 'Muller'
 INSERT INTO persona VALUES (21, '79089577Y', 'Juan', 'Gutiérrez', 'López', 'Almería', 'C/ Los pinos', '678652431', '1998/01/01', 'Masculino', 'Alumno');
 INSERT INTO persona VALUES (22, '41491230N', 'Antonio', 'Domínguez', 'Guerrero', 'Almería', 'C/ Cabo de Gata', '626652498', '1999/02/11', 'Masculino', 'Alumno');
 INSERT INTO persona VALUES (23, '64753215G', 'Irene', 'Hernández', 'Martínez', 'Almería', 'C/ Zapillo', '628452384', '1996/03/12', 'Femenino', 'Alumno');
-INSERT INTO persona VALUES (24, '85135690V', 'Sonia', 'Gea', 'Ruiz', 'Almería', 'C/ Mercurio', '678812017', '1995/04/13', 'Femenino', 'Alumno');
+INSERT INTO persona VALUES (24, '85135690V', 'Antonia', 'Gea', 'Ruiz', 'Almería', 'C/ Mercurio', '678812017', '1995/04/13', 'Femenino', 'Alumno');
 
 /* Profesor */
 INSERT INTO profesor VALUES (3, 1);
@@ -156,6 +156,8 @@ INSERT INTO curso_escolar VALUES (2, 2015, 2016);
 INSERT INTO curso_escolar VALUES (3, 2016, 2017);
 INSERT INTO curso_escolar VALUES (4, 2017, 2018);
 INSERT INTO curso_escolar VALUES (5, 2018, 2019);
+INSERT INTO curso_escolar VALUES (6, 2018, 2019);
+
 
 /* Alumno se matricula en asignatura */
 INSERT INTO alumno_se_matricula_asignatura VALUES (1, 1, 1);
